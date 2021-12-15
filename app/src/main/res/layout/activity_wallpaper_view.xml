@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rootLayout"
+    android:layout_height="match_parent"
+    tools:context=".WallpaperView">
+
+
+    <ImageView
+            android:id="@+id/WallpaperView"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/hint_img" />
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Fab_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="#ffffff"
+        app:elevation="6dp"
+        android:gravity="center"
+        app:pressedTranslationZ="12dp"
+        android:src="@drawable/download"
+        app:fabSize="normal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom"
+        app:maxImageSize="70dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_homescreen"
+        app:fabSize="mini"
+        app:maxImageSize="20dp"
+        app:backgroundTint="@color/whiteColor"
+        android:src="@drawable/ic_baseline_home_24"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="140dp"
+        android:layout_marginRight="30dp"
+        android:elevation="5dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:layout_marginEnd="30dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/set_lockScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="90dp"
+        android:elevation="5dp"
+        android:visibility="invisible"
+        android:src="@drawable/ic_baseline_lock_24"
+        app:backgroundTint="@color/whiteColor"
+        app:fabSize="mini"
+        android:clickable="true"
+        app:maxImageSize="20dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+           android:id="@+id/Fab_setWallpaper"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:backgroundTint="#ffffff"
+           android:layout_marginRight="20dp"
+           android:layout_marginBottom="20dp"
+           android:layout_gravity="end|bottom"
+           app:elevation="6dp"
+           app:pressedTranslationZ="12dp"
+           android:src="@drawable/set_wallpaper"
+           app:fabSize="normal"
+           app:maxImageSize="62dp" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

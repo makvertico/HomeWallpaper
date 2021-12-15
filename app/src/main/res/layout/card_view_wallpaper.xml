@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:clickable="true"
+        android:id="@+id/cardview_wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="290dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/wallpaper_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

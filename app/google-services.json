@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "868262939062",
+    "firebase_url": "https://homewallpaper-2c92d.firebaseio.com",
+    "project_id": "homewallpaper-2c92d",
+    "storage_bucket": "homewallpaper-2c92d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868262939062:android:a38ea062710f307a7d1917",
+        "android_client_info": {
+          "package_name": "com.example.homewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868262939062-javat57t70ui8p5in006032tr6ftmt3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIIh3kQBj90cK2aDc7Dk8riNu-X9TmoQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868262939062-javat57t70ui8p5in006032tr6ftmt3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
